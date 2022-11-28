@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/discord', (req, res) => {
-    res.redirect("https://discord.gg/");
+    res.redirect("https://discord.gg/cs5Jukrnt7");
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
