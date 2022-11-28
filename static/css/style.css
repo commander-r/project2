@@ -24,6 +24,7 @@ nav.scrolled {
 
 nav img {
     height: 50px;
+    border-radius: 15px;
 }
 
 nav li a:hover {
@@ -74,4 +75,9 @@ li a {
 
 .nav-button {
     margin-top: 15px;
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
 }
