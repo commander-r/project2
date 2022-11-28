@@ -8,4 +8,8 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/pages/index.html');
 });
 
+app.get('/discord', (req, res) => {
+    res.redirect("https://discord.gg/");
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
