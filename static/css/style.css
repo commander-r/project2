@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0; 
+    text-align: center;
 }
 
 nav {
@@ -79,5 +80,4 @@ li a {
 
 main {
     margin-top: 100px;
-    text-align: center;
 }
