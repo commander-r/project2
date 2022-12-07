@@ -3,7 +3,7 @@ body {
     padding: 0; 
     text-align: center;
     background-color: #252525;
-    background-image: url("https://cdn.discordapp.com/attachments/886921877417762866/1050006391257047070/pp2.jpg");
+    background-color: rgb(71, 71, 71);
     background-attachment: fixed;
     color:white;
 }
@@ -13,7 +13,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 100;
-    background-image: url("https://media.discordapp.net/attachments/886921877417762866/1050007317611024445/hier.jpg");
+    background-color: rgb(94, 94, 94);
     border-bottom: 10px solid linear-gradient(90deg, rgb(1, 0, 26) 0%, rgb(8, 8, 109) 0%, rgb(1, 183, 220) 100%);
     box-shadow: 0 1px 3px rgba(0,0,0,.1);
     -webkit-transition: all .2s ease-in-out;
@@ -175,4 +175,14 @@ main {
     100% {
         transform: rotate(360deg);
     }
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(6, 158, 200);
+    text-shadow: rgb(0, 81, 104) 0px 0px 3px;
 }
