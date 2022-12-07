@@ -10,6 +10,10 @@ app.get('/', async (req, res) => {
     res.render(__dirname + '/pages/index', {  });
 });
 
+app.get('/developers', async (req, res) => {
+    res.render(__dirname + '/pages/developers', {  });
+});
+
 app.get('/discord', (req, res) => {
     res.redirect("https://discord.gg/cs5Jukrnt7");
 });
