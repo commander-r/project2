@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 
 app.use(express.static('static'));
+app.set('view engine', 'ejs');
 
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/pages/index.html');
+app.get('/', async (req, res) => {
+    res.render(__dirname + '/pages/index', {  });
 });
 
 app.get('/discord', (req, res) => {

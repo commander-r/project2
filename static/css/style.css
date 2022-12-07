@@ -2,6 +2,10 @@ body {
     margin: 0;
     padding: 0; 
     text-align: center;
+    background-color: #252525;
+    background-image: url("https://cdn.discordapp.com/attachments/886921877417762866/1050006391257047070/pp2.jpg");
+    background-attachment: fixed;
+    color:white;
 }
 
 nav {
@@ -9,8 +13,8 @@ nav {
     top: 0;
     width: 100%;
     z-index: 100;
-    background-color: silver;
-    border-bottom: 1px solid #e5e5e5;
+    background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    border-bottom: 10px solid linear-gradient(90deg, rgb(1, 0, 26) 0%, rgb(8, 8, 109) 0%, rgb(1, 183, 220) 100%);
     box-shadow: 0 1px 3px rgba(0,0,0,.1);
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -19,7 +23,7 @@ nav {
 } 
 
 nav.scrolled {
-    background-color: #fff;
+    background-image: url("https://cdn.discordapp.com/attachments/886921877417762866/1050006391257047070/pp2.jpg");
     box-shadow: 0 1px 3px rgba(0,0,0,.1);
 }
 
