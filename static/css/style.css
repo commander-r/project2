@@ -2,10 +2,16 @@ body {
     margin: 0;
     padding: 0; 
     text-align: center;
-    background-color: #252525;
-    background-color: rgb(71, 71, 71);
-    background-attachment: fixed;
+    /* background-color: #252525; */
+    /* background-color: rgb(71, 71, 71); */
     color:white;
+
+    /* background image */
+    background-image: url("https://media.discordapp.net/attachments/886921877417762866/1050006212462256148/pp.jpg?width=1180&height=664");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 nav {
@@ -13,7 +19,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 100;
-    background-color: rgb(94, 94, 94);
+    background-image: url("https://cdn.discordapp.com/attachments/886921877417762866/1050007317611024445/hier.jpg");
     border-bottom: 10px solid linear-gradient(90deg, rgb(1, 0, 26) 0%, rgb(8, 8, 109) 0%, rgb(1, 183, 220) 100%);
     box-shadow: 0 1px 3px rgba(0,0,0,.1);
     -webkit-transition: all .2s ease-in-out;
@@ -28,17 +34,17 @@ nav img {
 }
 
 nav li a:hover {
-    color: rgb(6, 158, 200);
+    color: rgb(90, 191, 219);
     text-shadow: rgb(0, 81, 104) 0px 0px 3px;
 }
 
 nav li a:visited {
-    color: rgb(117, 124, 167);
+    color: rgb(204, 137, 229);
 }
 
 nav li a:visited:hover {
-    color: rgb(135, 205, 224);
-    text-shadow: rgb(61, 98, 108) 0px 0px 3px;
+    color: rgb(224, 135, 168);
+    text-shadow: rgb(108, 61, 103) 0px 0px 3px;
 }
 
 nav li a {
@@ -79,10 +85,6 @@ li a {
 
 .nav-button {
     margin-top: 15px;
-}
-
-main {
-    margin-top: 100px;
 }
 
 /* css for the profile cards */
@@ -185,4 +187,15 @@ a {
 a:hover {
     color: rgb(6, 158, 200);
     text-shadow: rgb(0, 81, 104) 0px 0px 3px;
+}
+
+.website-content {
+    margin-top: 5.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 10px;
 }
