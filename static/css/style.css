@@ -132,6 +132,13 @@ li a {
     font-weight: 300;
 }
 
+.profile-card h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
 .profile-card p {
     margin: 0;
     padding: 0;
@@ -168,6 +175,7 @@ li a {
 
 .profile-card img:hover {
     animation: spin 1s linear infinite;
+    border-color: rgb(6, 158, 200);
 }
 
 @keyframes spin {
