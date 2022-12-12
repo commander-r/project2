@@ -12,6 +12,23 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+    font-family: "Jua";
+}
+
+#info h1, #tips h1, #contact h1 {
+    font-family: "Rubik Vinyl";
+}
+
+.profile-card-info h1 {
+    color: black;
+    font-family: "Lilita One";
+    -webkit-text-stroke: 2px white;
+
+}
+
+img .logo:hover {
+    border: 2px solid rgb(90, 191, 219);
 }
 
 nav {
@@ -33,21 +50,21 @@ nav img {
     border-radius: 15px;
 }
 
-nav li a:hover {
+nav li a .link:hover {
     color: rgb(90, 191, 219);
     text-shadow: rgb(0, 81, 104) 0px 0px 3px;
 }
 
-nav li a:visited {
+nav li a .link:visited {
     color: rgb(204, 137, 229);
 }
 
-nav li a:visited:hover {
+nav li a .link:visited:hover {
     color: rgb(224, 135, 168);
     text-shadow: rgb(108, 61, 103) 0px 0px 3px;
 }
 
-nav li a {
+nav li a .link {
     color: white;
 }
 
