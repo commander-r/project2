@@ -50,22 +50,9 @@ nav img {
     border-radius: 15px;
 }
 
-nav li a .link:hover {
+nav li .link:hover {
     color: rgb(90, 191, 219);
     text-shadow: rgb(0, 81, 104) 0px 0px 3px;
-}
-
-nav li a .link:visited {
-    color: rgb(204, 137, 229);
-}
-
-nav li a .link:visited:hover {
-    color: rgb(224, 135, 168);
-    text-shadow: rgb(108, 61, 103) 0px 0px 3px;
-}
-
-nav li a .link {
-    color: white;
 }
 
 ul {
@@ -81,7 +68,7 @@ li {
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
